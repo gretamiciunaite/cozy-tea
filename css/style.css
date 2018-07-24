@@ -30,12 +30,14 @@ body {
  #header a {
    text-decoration: underline;
    color: white;
+   padding-right: 20px;
+   padding-left: 20px;
  }
 
  nav {
-   text-align: right;
+   text-align: right !important;
    flex-grow: 1;
-  }
+}
 
  #header img {
    height: 50px;
